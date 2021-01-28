@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="teacherPanel">
+  <grid id="27dc6" binding="teacherPanel" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="883" height="693"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="896d2" binding="leftPanel" layout-manager="GridLayoutManager" row-count="11" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="20" left="15" bottom="10" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="0" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="e4992" class="javax.swing.JButton" binding="deleteStudent">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <focusPainted value="false"/>
+              <font name="Arial Black" size="18" style="1"/>
+              <icon value="images/delete.png"/>
+              <iconTextGap value="-280"/>
+              <margin top="4" left="0" bottom="4" right="0"/>
+              <text value="Delete Student"/>
+            </properties>
+          </component>
+          <component id="bd222" class="javax.swing.JButton" binding="deleteAllStudentsButton" default-binding="true">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="1"/>
+              <icon value="images/delete.png"/>
+              <iconTextGap value="-280"/>
+              <margin top="4" left="0" bottom="4" right="0"/>
+              <text value="Clear All Students"/>
+            </properties>
+          </component>
+          <component id="19556" class="javax.swing.JButton" binding="updateStudentButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <focusPainted value="false"/>
+              <font name="Arial Black" size="18" style="1"/>
+              <icon value="images/refresh.png"/>
+              <iconTextGap value="-280"/>
+              <margin top="4" left="0" bottom="4" right="0"/>
+              <text value="Update Student"/>
+            </properties>
+          </component>
+          <component id="e4000" class="javax.swing.JButton" binding="deleteChatBoxButton" default-binding="true">
+            <constraints>
+              <grid row="10" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <focusPainted value="false"/>
+              <focusable value="true"/>
+              <font name="Arial Black" size="18" style="1"/>
+              <icon value="images/delete.png"/>
+              <iconTextGap value="-280"/>
+              <margin top="4" left="0" bottom="4" right="0"/>
+              <text value="Delete Chat Box"/>
+            </properties>
+          </component>
+          <component id="45f3f" class="javax.swing.JButton" binding="addStudentButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <borderPainted value="true"/>
+              <focusPainted value="false"/>
+              <font name="Arial Black" size="18" style="1"/>
+              <icon value="images/add.png"/>
+              <iconTextGap value="-280"/>
+              <margin top="4" left="0" bottom="4" right="0"/>
+              <text value="Add Student"/>
+            </properties>
+          </component>
+          <component id="be2e6" class="javax.swing.JLabel" binding="messageCounter">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16" style="0"/>
+              <text value="Label"/>
+            </properties>
+          </component>
+          <component id="d46ee" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Gill Sans Nova Cond Ultra Bold" size="28" style="3"/>
+              <icon value="images/chat.png"/>
+              <iconTextGap value="-190"/>
+              <text value="             CHAT"/>
+            </properties>
+          </component>
+          <component id="be894" class="javax.swing.JTextArea" binding="textArea4" default-binding="true">
+            <constraints>
+              <grid row="9" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <columns value="0"/>
+              <dropMode value="USE_SELECTION"/>
+              <enabled value="false"/>
+              <font size="16" style="1"/>
+              <foreground color="-14342875"/>
+              <lineWrap value="true"/>
+              <text value=""/>
+            </properties>
+            <clientProperties>
+              <html.disable class="java.lang.Boolean" value="false"/>
+            </clientProperties>
+          </component>
+          <component id="5119b" class="javax.swing.JButton" binding="SETEXAMButton" default-binding="true">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="1"/>
+              <text value=" SET EXAM   "/>
+            </properties>
+          </component>
+          <grid id="37b8b" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="6" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="2b56d" class="javax.swing.JLabel" binding="teacherName">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="1"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="43172" class="javax.swing.JLabel" binding="department">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="18" style="1"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="3bef0" class="javax.swing.JButton" binding="cretaClassButton" default-binding="true">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="1"/>
+              <text value="Creta Class  "/>
+            </properties>
+          </component>
+          <component id="67cb8" class="javax.swing.JButton" binding="deleteClassButton" default-binding="true">
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="18" style="1"/>
+              <text value="Delete Class"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="937d4" binding="rightPanel" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="15" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="line">
+          <font size="18" style="1"/>
+          <title-color color="-9407336"/>
+          <color color="-9407336"/>
+        </border>
+        <children>
+          <component id="75803" class="javax.swing.JLabel" binding="j1">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16" style="1"/>
+              <text value="ID"/>
+            </properties>
+          </component>
+          <component id="7982e" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16" style="1"/>
+              <text value="Name"/>
+            </properties>
+          </component>
+          <component id="c38de" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="16" style="1"/>
+              <text value="Grade"/>
+            </properties>
+          </component>
+          <component id="a2cd2" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3880466"/>
+              <enabled value="false"/>
+              <font size="16" style="1"/>
+              <margin top="0" left="55" bottom="0" right="0"/>
+            </properties>
+          </component>
+          <component id="678b2" class="javax.swing.JTextArea" binding="textArea2" default-binding="true">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3880466"/>
+              <editable value="true"/>
+              <enabled value="false"/>
+              <font size="16" style="1"/>
+            </properties>
+          </component>
+          <component id="3ed9f" class="javax.swing.JTextArea" binding="textArea3" default-binding="true">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-3880466"/>
+              <editable value="true"/>
+              <enabled value="false"/>
+              <font size="16" style="1"/>
+              <margin top="0" left="55" bottom="0" right="0"/>
+            </properties>
+          </component>
+          <component id="4f2a8" class="javax.swing.JTextField" binding="showclassField">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font size="16" style="1"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="f2fda" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20" style="1"/>
+          <text value="Students"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
