@@ -1,2 +1,2 @@
 I used mySQL for database.
-I wrote a class "mySQLX" for avoid write try catch when I invoke database.
+I wrote a class "mySQLX" for avoid write data url , name and password when I invoke database everytime.
